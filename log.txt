@@ -1,0 +1,5 @@
+The best params are {'colsample_bytree': 0.5, 'learning_rate': 0.06, 'max_depth': 9}
+balanced accuracy is : 0.7309846203389397
+model score is : 0.9066490532804932
+precision score is: 0.7372262773722628
+AUC is: 0.8850818481948758
