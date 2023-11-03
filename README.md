@@ -15,24 +15,3 @@ https://physionet.org/content/challenge-2019/1.0.0/
 
 Note: The data used here is a little different from website, without the outcome with time stamps.
 
-# Quick start
-```shell
-# for running all the procedure
-python resnet.py 
-
-# for the individual task, run corresponding py scripts:
-python data_clean_merge.py
-python model_train.py
-python model_apply.py
-```
-
-# Log:
-The best params of XGBoost Classifier are {'colsample_bytree': 0.5, 'learning_rate': 0.06, 'max_depth': 9}
-
-balanced accuracy is : 0.731
-
-model score is : 0.907
-
-precision score is: 0.737
-
-AUC is: 0.885
